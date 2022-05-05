@@ -3,7 +3,7 @@
 #include <process.h>
 #include <vector>
 using namespace std;
-// 等价于WINAPI，约定使用stdcall函数调用，既被调用者负责清栈
+// 等价于WINAPI，约定使用stdcall函数调用，即被调用者负责清栈
 #define STD __stdcall
 //缓冲区大小
 #define N 16
